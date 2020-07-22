@@ -32,3 +32,5 @@ elif mode[0] == 'folder':
     li = xbmcgui.ListItem(foldername + ' Video', iconImage='DefaultVideo.png')
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
     xbmcplugin.endOfDirectory(addon_handle)
+
+    
