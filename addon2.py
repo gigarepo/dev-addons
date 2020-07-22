@@ -33,4 +33,3 @@ elif mode[0] == 'folder':
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
     xbmcplugin.endOfDirectory(addon_handle)
 
-    
